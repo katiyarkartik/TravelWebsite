@@ -1,0 +1,26 @@
+.navbar-container {
+    color: white;
+    justify-content: center;
+    width: 100%;
+
+    padding:  20px 0;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-container ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 500;
+}

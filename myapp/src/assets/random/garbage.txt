@@ -1,0 +1,25 @@
+{products.map((product) => (
+        <li key={product.id}>
+          <p>{product.title}</p>
+          <br />
+        </li>
+      ))}
+      lorem
+      {/* <Menu onUpdateValue={onUpdateValue} /> */}
+      <button onClick={handleClick}>click me {count}</button>
+      <Filter />
+      <h2>Todos</h2>
+      <input
+        type="text"
+        placeholder="title"
+        name=""
+        id=""
+        onChange={(e) => setTodostitle(e.target.value)}
+      />
+      <input
+        type="text"
+        placeholder="desc"
+        onChange={(e) => setTodosdesc(e.target.value)}
+      />
+      <button onClick={handleTodo}>add todo</button>
+      <button onClick={showTodo}>show Todo</button>
