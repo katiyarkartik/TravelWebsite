@@ -2,10 +2,10 @@
     color: white;
     justify-content: center;
     width: 100%;
-
-    padding:  20px 0;
+    position: fixed;
+    padding:  10px 0;
    
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
 
     display: flex;
     justify-content: center;
@@ -23,4 +23,11 @@
 .logo {
     font-size: 32px;
     font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+    color: white;
 }

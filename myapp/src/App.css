@@ -37,11 +37,12 @@
   }
 } */
 
-.container-fluid{
+.container-fluid {
   width: 1280px;
 }
-@media only screen and (max-width){
-  .container-fluid{
+
+@media only screen and (max-width) {
+  .container-fluid {
     width: 100%;
   }
 }

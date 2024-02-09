@@ -4,21 +4,25 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import "./Navbar.css";
+import "../styles/Navbar.css";
+
 import { CiTimer } from "react-icons/ci";
 import Usernav from "./Usernav";
-function Navbarcomp({ onUpdateValue }) {
+import { PiHeartFill } from "react-icons/pi";
 
+function Navbarcomp({ onUpdateValue }) {
   return (
     <section className="navbar-container">
       <div className="container-fluid">
         <ul>
           <li className="logo">
             <CiTimer />
-            IndoTravel
+            Travel
           </li>
 
-          <li>
+          <li className="nav-right">
+            <div className="bucket-list"></div>
+
             <Usernav onUpdateValue={onUpdateValue} />
           </li>
         </ul>

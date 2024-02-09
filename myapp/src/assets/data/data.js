@@ -36,4 +36,3 @@ const data = [
   },
 ];
 
-export

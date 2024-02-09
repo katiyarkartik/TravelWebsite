@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Menu from "../../components/Menu";
 import Navbarcomp from "../../components/Navbarcomp";
 import Filter from "../../components/Filter";
+import Search from "../../components/Search";
 const Home = ({ onUpdateValue }) => {
   const [selectedState, setSelectedState] = useState("");
   const handleStateChange = (event) => {
@@ -45,8 +46,8 @@ const Home = ({ onUpdateValue }) => {
     <div className="home">
       <div className="banner">
         <Navbarcomp onUpdateValue={onUpdateValue} />
-        <div className="opacity">
-          <h1>INDIA</h1>
+        {/* <div className="opacity">
+          <h1>EXPLORE</h1>
           <h2>
             "Discover the Colors of India: Your Journey Starts Here! Plan Your
             Tours for anywhere in India"
@@ -54,30 +55,19 @@ const Home = ({ onUpdateValue }) => {
           <a href="#main">
             <button className="banner-btn">Explore the culture</button>
           </a>
-        </div>
+        </div> */}
       </div>
       <section className="main" id="main">
+        
         <div className="container-fluid">
           <div className="main-container">
-            <h1>Plan your trip</h1>
 
-            <label htmlFor="country-state">Select State:</label>
-            <select
-              id="country-state"
-              name="country-state"
-              value={selectedState}
-              onChange={handleStateChange}
-            >
-              <option value="">Select state</option>
-              <option value="Delhi">Delhi</option>
-              <option value="Mumbai">Mumbai</option>
-              <option value="Agra">Agra</option>
-              <option value="Kolkata">Kolkata</option>
-            </select>
 
-            <p>Selected State: {selectedState}</p>
+
+
           </div>
         </div>
+        {/* <Search /> */}
       </section>
     </div>
   );

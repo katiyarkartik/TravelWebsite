@@ -2,8 +2,8 @@ import Accordion from "react-bootstrap/Accordion";
 import { FaUserCircle } from "react-icons/fa";
 import { CiLogout, CiSettings, CiHeart } from "react-icons/ci";
 
-import "./Usernav.css";
-const Usernav = ({ onUpdateValue })=> {
+import "../styles/Usernav.css";
+const Usernav = ({ onUpdateValue }) => {
   const handleLogout = () => {
     onUpdateValue(false);
   };
@@ -20,21 +20,15 @@ const Usernav = ({ onUpdateValue })=> {
           <ul className="user-expanded">
             <li>Profile</li>
             <li>My Tours</li>
-            <li>
-              Wishlist
-            </li>
+            <li>Wishlist</li>
             <li>Account</li>
-            <li>
-              Settings
-            </li>
-            <li onClick={handleLogout}>
-              Logout
-            </li>
+            <li>Settings</li>
+            <li onClick={handleLogout}>Logout</li>
           </ul>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
   );
-}
+};
 
 export default Usernav;

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.auth {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* padding: 20px; */
+}
+
+.auth-left {
+    width: 50%;
+    height: 100%;
+    background-color: chocolate;
+    /* border-radius: 15px; */
+    /* background: url('../../assets/images/authImg4.jpg'); */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.auth-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+
+.auth-left img:hover {
+    transform: scale(1.2);
+
+}
+
+.auth-box {
+    width: 50%;
+    height: 100%;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-container {
+    width: 450px;
+    height: 500px;
+
+}
+
+.auth-selector {
+    padding: 10px 0;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.auth-selector button {
+    border: none;
+    background: none;
+    border-style: none;
+}
+
+.auth-form {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-form {
+    margin-top: 20px;
+
+}
+
+.signup-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:1024px) {
+    .auth-left {
+        display: none;
+    }
+
+    .auth-box {
+        width: 100%;
+    }
+}
