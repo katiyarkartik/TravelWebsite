@@ -23,8 +23,7 @@ const Auth = ({ onUpdateValue }) => {
         </li>
         <div className="auth-container">
           <div className="auth-selector">
-            {/* <button onClick={() => setauth(1)}>Login</button>
-            <button onClick={() => setauth(0)}>Register</button> */}
+         
           </div>
           <div className="auth-form">
             {" "}

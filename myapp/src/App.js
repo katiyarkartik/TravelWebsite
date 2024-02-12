@@ -11,7 +11,7 @@ import Auth from "./pages/Auth/Auth";
 import { useState } from "react";
 
 function App() {
-  const [isUserLogged, setIsUserLogged] = useState(false);
+  const [isUserLogged, setIsUserLogged] = useState(true);
   const updateValue = (userLogged) => {
     setIsUserLogged(userLogged);
   };

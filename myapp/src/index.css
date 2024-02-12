@@ -20,9 +20,7 @@ code {
     monospace;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 ul, li {
   margin: 0;

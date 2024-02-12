@@ -1,33 +1,4 @@
-.navbar-container {
-    color: white;
-    justify-content: center;
+.navbar-container{
     width: 100%;
-    position: fixed;
-    padding:  10px 0;
-   
-    background-color: black;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.navbar-container ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 32px;
-    font-weight: 500;
-}
-.nav-right{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+    height: 80px;
 }

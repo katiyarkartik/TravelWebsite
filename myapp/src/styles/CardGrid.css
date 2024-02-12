@@ -1,0 +1,11 @@
+.card-grid {
+    width: 100%;
+   
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+     
+    gap: 20px;
+}
